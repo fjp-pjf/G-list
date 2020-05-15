@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-image: url(../asset/plants.jpg);
+    /* position:cover; */
+}
+table{
+    border:2px solid greenyellow;
+    margin:2vmin;
+    font-family:"Pacifico", cursive;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+  border: 1px solid #5874DC;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr,th{
+    color: darkblue;
+    background-color:#ff9068;
+}
+table :hover{
+    background-color: rgb(105, 221, 105);
+}
+h2{
+    color: greenyellow;
+}
+.button{
+    background-color:#5874DC;
+    padding:2vmin;
+    border-radius:30px;
+    border-width:0px;
+    
+}
